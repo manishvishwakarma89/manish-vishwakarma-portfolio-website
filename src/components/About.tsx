@@ -9,7 +9,7 @@ const About = () => {
     setDownloading(true);
     try {
       // Method 1: Local file
-      const resumeUrl = '/resume.pdf';
+      const resumeUrl = '/https://drive.google.com/file/d/1h_tU4xDLOtObQTrl0Sr7qTmrClOjkM8s/view?usp=drive_link';
       const link = document.createElement('a');
       link.href = resumeUrl;
       link.download = 'https://drive.google.com/file/d/1h_tU4xDLOtObQTrl0Sr7qTmrClOjkM8s/view?usp=drive_link';
