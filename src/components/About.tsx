@@ -12,7 +12,7 @@ const About = () => {
       const resumeUrl = '/resume.pdf';
       const link = document.createElement('a');
       link.href = resumeUrl;
-      link.download = 'manishvishwakarma89/manish-vishwakarma-portfolio-website/src/assets/Manish Kumar Experienced-Resume-Template-2025.docx';
+      link.download = 'https://drive.google.com/file/d/1h_tU4xDLOtObQTrl0Sr7qTmrClOjkM8s/view?usp=drive_link';
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
