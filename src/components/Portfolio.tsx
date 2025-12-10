@@ -109,8 +109,9 @@ const portfolioItems: PortfolioItem[] = [
       'Migrate database to AWS Aura',
       'Used API Gateway and DynamoDB for serverless computing'
     ]
-  },
+ },
 const Portfolio = () => {
+
   const [selectedItem, setSelectedItem] = useState<PortfolioItem | null>(null);
 
   return (
