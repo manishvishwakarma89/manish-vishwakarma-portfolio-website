@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Star, Award, Download } from 'lucide-react';
-import heroAvatar from '@/assets/manish_pics.jpg';
+import heroAvatar from '@/assets/manish_pics 2021.jpg';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -37,7 +37,7 @@ const Hero = () => {
         {/* Main Heading */}
         <h1 className="text-4xl md:text-6xl font-bold text-hero-foreground mb-6 leading-tight">
           <span className="text-primary">AWS Certified</span>{' '}
-          <span className="text-hero-foreground">Solution Architect</span>
+          <span className="text-hero-foreground">Solution Architect- Associate</span>
         </h1>
 
         {/* Certification Link */}
